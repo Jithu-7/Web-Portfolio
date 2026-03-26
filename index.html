@@ -36,13 +36,13 @@
     <section class="hero" id="home">
         <div class="container hero-container">
             <div class="hero-content">
-                <p class="hero-subtitle">HELLO, I'M</p>
-                <h1 class="hero-title">Abhijith <span class="highlight">T A</span></h1>
-                <p class="hero-role">Game Developer | Tech Enthusiast</p>
-                <p class="hero-description">
-                    I build interactive, polished experiences for PC and mobile using Unity and Unreal Engine.
-                    Specializing in gameplay mechanics, technical art, and optimization.
-                </p>
+                <p class="hero-subtitle">HELLO, I'M ABHIJITH T A</p>
+                <h1 class="hero-title">Gameplay Systems <span class="highlight">Developer</span> (Unity)</h1>
+                <p class="hero-role">I build responsive third-person controllers and cinematic gameplay systems.</p>
+
+                <div class="hero-video" style="margin-top: 1rem; margin-bottom: 2rem; border-radius: 15px; overflow: hidden; border: 1px solid var(--glass-border); aspect-ratio: 16/9;">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/YLn8CPN69eA?autoplay=1&mute=1&loop=1&playlist=YLn8CPN69eA" title="Gameplay Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" style="display: block;"></iframe>
+                </div>
 
                 <div class="hero-btns">
                     <a href="#projects" class="btn btn-primary">Check out my work</a>
@@ -177,7 +177,24 @@
 
     <section class="section" id="projects">
         <div class="container">
-            <h2 class="section-title">Featured Projects</h2>
+            <h2 class="section-title">Featured Project</h2>
+            
+            <div class="hero-project-card" style="margin-bottom: 4rem; display: flex; flex-direction: column; background: var(--card-bg); border-radius: 20px; overflow: hidden; border: 1px solid var(--glass-border);">
+                <div style="width: 100%; aspect-ratio: 16/9;">
+                    <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/YLn8CPN69eA" title="Third Person gameplay Controller System" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" style="display: block;"></iframe>
+                </div>
+                <div class="project-content" style="padding: 3rem;">
+                    <h3 class="project-title" style="font-size: 2rem; margin-bottom: 1.5rem; color: var(--primary);">Third Person Gameplay Controller System</h3>
+                    <ul class="project-description" style="list-style-type: none; padding-left: 0; margin-bottom: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; font-size: 1.1rem; font-weight: 500;">
+                        <li><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i>Movement system</li>
+                        <li><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i>Camera system</li>
+                        <li><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i>Interaction system</li>
+                        <li><i class="fas fa-check" style="color: var(--accent); margin-right: 10px;"></i>Physics</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2 class="section-title">Other Projects</h2>
             <div class="projects-grid">
                 <!-- Brain Lag -->
                 <div class="project-card">
@@ -189,8 +206,11 @@
                             <span class="tech-tag">Android</span>
                             <span class="tech-tag">PC</span>
                         </div>
-                        <p class="project-description">A chaotic 3D rage platformer where your controller actively works
-                            against you.</p>
+                        <p class="project-description" style="margin-bottom: 0.5rem; font-weight: bold;">3D rage platformer.</p>
+                        <ul class="project-description" style="list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                            <li>Input scrambling system</li>
+                            <li>Delayed input mechanics</li>
+                        </ul>
                         <div class="project-links">
                             <a href="https://abhijith-ta.itch.io/brain-lag" target="_blank" class="project-link">
                                 <i class="fab fa-itch-io"></i> View on Itch.io
@@ -201,7 +221,7 @@
 
                 <!-- Highway Havoc -->
                 <div class="project-card">
-                    <img src="assets/images/highway-havoc.png" alt="Highway Havoc" class="project-img">
+                    <iframe width="100%" height="220" src="https://www.youtube-nocookie.com/embed/XM8Lv6bLONI" title="Highway Havoc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" style="display: block; border-bottom: 1px solid var(--glass-border);"></iframe>
                     <div class="project-content">
                         <h3 class="project-title">Highway Havoc</h3>
                         <div class="project-tech">
@@ -209,8 +229,11 @@
                             <span class="tech-tag">Android</span>
                             <span class="tech-tag">Racing</span>
                         </div>
-                        <p class="project-description">Endless 3D driving game. Weave through traffic and dodge
-                            vehicles.</p>
+                        <p class="project-description" style="margin-bottom: 0.5rem; font-weight: bold;">Endless 3D driving game.</p>
+                        <ul class="project-description" style="list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                            <li>Traffic weaving mechanics</li>
+                            <li>Vehicle dodging</li>
+                        </ul>
                         <div class="project-links">
                             <a href="https://abhijith-ta.itch.io/highway-havoc" target="_blank" class="project-link">
                                 <i class="fab fa-itch-io"></i> View on Itch.io
@@ -221,7 +244,7 @@
 
                 <!-- Jumpy Bird -->
                 <div class="project-card">
-                    <img src="assets/images/jumpy-bird.png" alt="Jumpy Bird" class="project-img">
+                    <iframe width="100%" height="220" src="https://www.youtube-nocookie.com/embed/c9tM_-Qr_NA" title="Jumpy Bird" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" style="display: block; border-bottom: 1px solid var(--glass-border);"></iframe>
                     <div class="project-content">
                         <h3 class="project-title">Jumpy Bird</h3>
                         <div class="project-tech">
@@ -229,8 +252,11 @@
                             <span class="tech-tag">Android</span>
                             <span class="tech-tag">Casual</span>
                         </div>
-                        <p class="project-description">Classic Flappy Bird redesigned with polished visuals and particle
-                            effects.</p>
+                        <p class="project-description" style="margin-bottom: 0.5rem; font-weight: bold;">Classic Flappy Bird redesigned.</p>
+                        <ul class="project-description" style="list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                            <li>Polished visuals</li>
+                            <li>Particle effects</li>
+                        </ul>
                         <div class="project-links">
                             <a href="https://abhijith-ta.itch.io/jumpy-bird" target="_blank" class="project-link">
                                 <i class="fab fa-itch-io"></i> View on Itch.io
@@ -249,8 +275,11 @@
                             <span class="tech-tag">Android</span>
                             <span class="tech-tag">Puzzle</span>
                         </div>
-                        <p class="project-description">Logic-based word-finding puzzle game with dynamically generated
-                            grids.</p>
+                        <p class="project-description" style="margin-bottom: 0.5rem; font-weight: bold;">Word-finding puzzle game.</p>
+                        <ul class="project-description" style="list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                            <li>Dynamic grid generation</li>
+                            <li>Word validation system</li>
+                        </ul>
                         <div class="project-links">
                             <a href="https://abhijith-ta.itch.io/word-finder" target="_blank" class="project-link">
                                 <i class="fab fa-itch-io"></i> View on Itch.io
@@ -261,7 +290,7 @@
 
                 <!-- Mini Golf -->
                 <div class="project-card">
-                    <img src="assets/images/mini-golf.png" alt="Mini Golf" class="project-img">
+                    <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/5LHGtjLwNBw" title="Mini Golf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" style="display: block; border-bottom: 1px solid var(--glass-border);"></iframe>
                     <div class="project-content">
                         <h3 class="project-title">Mini Golf</h3>
                         <div class="project-tech">
@@ -269,8 +298,11 @@
                             <span class="tech-tag">Android</span>
                             <span class="tech-tag">Sports</span>
                         </div>
-                        <p class="project-description">Classic golf game redesigned into a casual Arcady setup with
-                            top-down zoom.</p>
+                        <p class="project-description" style="margin-bottom: 0.5rem; font-weight: bold;">Arcadian style classic golf.</p>
+                        <ul class="project-description" style="list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                            <li>Top-down auto-zooming camera</li>
+                            <li>Physics-based swing mechanics</li>
+                        </ul>
                         <div class="project-links">
                             <a href="https://abhijith-ta.itch.io/mini-golf" target="_blank" class="project-link">
                                 <i class="fab fa-itch-io"></i> View on Itch.io
@@ -281,7 +313,7 @@
 
                 <!-- Items Jam -->
                 <div class="project-card">
-                    <img src="assets/images/items-jam.png" alt="Items Jam" class="project-img">
+                    <iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/DWS9bUpVSzg" title="Items Jam" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen referrerpolicy="strict-origin-when-cross-origin" style="display: block; border-bottom: 1px solid var(--glass-border);"></iframe>
                     <div class="project-content">
                         <h3 class="project-title">Items Jam</h3>
                         <div class="project-tech">
@@ -289,8 +321,11 @@
                             <span class="tech-tag">Android</span>
                             <span class="tech-tag">Puzzle</span>
                         </div>
-                        <p class="project-description">Logic-based puzzle game. Match sets of items to solve the riddle.
-                        </p>
+                        <p class="project-description" style="margin-bottom: 0.5rem; font-weight: bold;">Logic-based puzzle game.</p>
+                        <ul class="project-description" style="list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.5rem;">
+                            <li>Item matching logic</li>
+                            <li>Riddle solving mechanics</li>
+                        </ul>
                         <div class="project-links">
                             <a href="https://abhijith-ta.itch.io/items-jam" target="_blank" class="project-link">
                                 <i class="fab fa-itch-io"></i> View on Itch.io
@@ -299,27 +334,7 @@
                     </div>
                 </div>
 
-                <!-- Letter Jump 3D (Placeholder Image) -->
-                <div class="project-card">
-                    <div class="project-placeholder"
-                        style="background: linear-gradient(135deg, #00d2ff, #7f00ff); height: 200px; display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: rgba(255,255,255,0.2);">
-                        3D</div>
-                    <div class="project-content">
-                        <h3 class="project-title">Letter Jump 3D</h3>
-                        <div class="project-tech">
-                            <span class="tech-tag">Unity</span>
-                            <span class="tech-tag">Android</span>
-                            <span class="tech-tag">Platformer</span>
-                        </div>
-                        <p class="project-description">Mobile-friendly 3D platformer. Test timing and precision by
-                            jumping between pillars.</p>
-                        <div class="project-links">
-                            <a href="#" class="project-link">
-                                <i class="fas fa-info-circle"></i> Details
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
